@@ -16,7 +16,7 @@ body {
 
 .label {
 	text-align: right;
-	vertical-align: center;
+	vertical-align: text-top;
 }
 
 .input-field {
@@ -25,4 +25,9 @@ body {
 	padding: 5px;
 	border: 1px solid #c0c0c0;
 	border-radius: 5px;
+}
+
+.text-field {
+	height:50px;
+	resize:vertical;
 }
