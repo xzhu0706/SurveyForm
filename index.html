@@ -32,18 +32,33 @@
 			</select>
 		</div>
 		<div class="form-item">
-			<label for="lorem2">* Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit placeat rerum corporis mollitia tempore?</label>
+			<label class="label" for="lorem2">* Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit placeat rerum corporis mollitia tempore?</label>
 			<ul style="list-style: none;">
 				<li class="radio">
-					<label>Very likely<input name="radio-buttons" value="1" type="radio"></label>
+					<label>Very likely<input name="lorem2" value="1" type="radio" checked></label>
 				</li>
 				<li class="radio">
-					<label>Maybe<input name="radio-buttons" value="2" type="radio"></label>
+					<label>Maybe<input name="lorem2" value="2" type="radio"></label>
 				</li>
 				<li class="radio">
-					<label>Not sure<input name="radio-buttons" value="3" type="radio"></label>
+					<label>Not sure<input name="lorem2" value="3" type="radio"></label>
 				</li>
 			</ul>
+		</div>
+		<div class="form-item">
+			<label class="label" for="lorem3">Lorem ipsum dolor sit amet?</label>
+			<ul style="list-style: none;">
+				<li class="checkbox"><label><input name="lorem3" value="1" type="checkbox">Lorem</label></li>
+				<li class="checkbox"><input name="lorem3" value="2" type="checkbox">ipsum</li>
+				<li class="checkbox"><label><input name="lorem3" value="3" type="checkbox">dolor</label></li>
+			</ul>
+		</div>
+		<div class="form-item">
+			<label class="label" for="lorem4">Lorem ipsum dolor sit amet consectetur adipisicing elit?</label>
+			<textarea class="input-field text-field" name="lorem4" placeholder="sit amet consectetur"></textarea>
+		</div>
+		<div class="form-item">
+			<button class="btn" type="submit">Submit</button>
 		</div>
 	</form>
 </body>
